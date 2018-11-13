@@ -1,0 +1,7 @@
+spring:
+  application:
+     name: zipcode-service  
+
+# HTTP Server
+server:
+  port: 8080   # HTTP (Tomcat) port

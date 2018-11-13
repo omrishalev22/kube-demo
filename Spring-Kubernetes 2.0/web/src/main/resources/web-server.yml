@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: web-server
+
+# HTTP Server
+server:
+  port: 8085   # HTTP (Tomcat) port
