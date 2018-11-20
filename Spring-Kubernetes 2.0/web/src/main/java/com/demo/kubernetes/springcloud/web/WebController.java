@@ -15,8 +15,7 @@ public class WebController {
 	@Autowired
 	protected WebService service;
 	
-	protected Logger logger = Logger.getLogger(WebController.class
-			.getName());
+	protected Logger logger = Logger.getLogger(WebController.class.getName());
 
 	@Autowired
 	public WebController(WebService service) {

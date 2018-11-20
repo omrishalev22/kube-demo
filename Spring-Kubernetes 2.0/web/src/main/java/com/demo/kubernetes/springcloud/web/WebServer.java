@@ -17,7 +17,7 @@ public class WebServer {
 	public static void main(String[] args) {
 
 		web_service_url = "zipcode-service";
-		System.setProperty("server.port", "8085");
+		System.setProperty("server.port", "8000");
 		System.setProperty("spring.config.name", "web-server");
 		SpringApplication.run(WebServer.class, args);
 	}

@@ -21,7 +21,7 @@ public class WebService {
 	 * @param String serviceURL
 	 */
 	public WebService(String serviceURL) {
-		this.serviceUrl = "http://"+serviceURL+":8080";
+		this.serviceUrl = "http://"+serviceURL+":3000";
 	}
 	
 	public String getZipInfo(String zipcode){

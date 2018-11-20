@@ -4,4 +4,4 @@ spring:
 
 # HTTP Server
 server:
-  port: 8085   # HTTP (Tomcat) port
+  port: 8000   # HTTP (Tomcat) port
